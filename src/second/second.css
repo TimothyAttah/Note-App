@@ -1,0 +1,337 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#main-container2{
+  opacity: 0.8;
+}
+
+.headerPage{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    margin: 0 50px;
+}
+
+header p{
+    margin:20px 0;
+}
+
+.header-title{
+    font-size: 28px;
+}
+
+.header-logo{
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo img:hover{
+    cursor: pointer;
+}
+
+.header-logo p{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.header-title a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 50px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background-color: rgb(217, 237, 243);
+   margin-top: 5px;
+   padding: 0px;
+   opacity: 0.5;
+}
+
+.navLinks ul{
+    width: 520px;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLinks img{
+    padding-right: 3px;
+    padding-top: 0px;
+}
+
+.note-icon{
+    color: blue;
+    padding: 10px 0;
+}
+nav .note-icon{
+    border-bottom: blue 1px solid;
+}
+
+.hovering:hover{
+    color: blue;
+    border-bottom: blue 1px solid;
+    padding: 10px 0;
+}
+
+.num-10{
+    background-color: black;
+    color: red;
+    border-radius: 100%;
+    padding: 5px;
+     font-size: 14px;
+     margin-right: 3px;
+}
+
+.num-2{
+    background-color: black;
+    color: red;
+    border-radius: 100%;
+    padding: 2px;
+     font-size: 14px;
+     margin-right: 3px;
+}
+
+.num-10:hover, .num-2:hover{
+    background-color:rgba(247, 76, 76, 0.904);
+    color: #000;
+}
+
+.login-signUpPage ul{
+    display: flex;
+    color: #fff;
+     font-size: 15px; 
+     margin: 0;
+}
+
+.loginPage{
+    background-color: rgba(0, 0, 255, 0.705);
+    padding: 5px 12px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.sign-upPage{
+    background-color: rgba(0, 0, 255, 0.753);;
+    padding: 5px 14px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links-tag li:hover{
+    background-color:rgba(0, 0, 173, 0.753) ;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.login-signUp a:hover{
+    color: #000;
+} 
+
+#main-content-wrapper{
+    margin: 0 50px;
+}
+
+#second-sectionPage{
+    width: 95%;
+    margin-top: 20px;
+}
+
+#second-section-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+#section-nav{
+    width: 350px;
+    padding-right: 10px;
+   
+}
+
+.p-tag{
+    line-height: 21px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.p-tag1{
+    line-height: 28px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.second-section-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.personal{
+    background-color: lightblue;
+    color: blue;
+    border-radius: 20px;
+     padding:0 5px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    color: #000;
+     border-radius: 20px; 
+    font-weight: bolder;
+    padding: 0 8px;
+     font-size: 16px;
+     padding-bottom: 5px;
+}
+
+.personal1{
+    background-color: white;
+    color: blue;
+    border-radius: 20px;
+     padding:0 5px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.dots1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+     border-radius: 20px; 
+    font-weight: bolder;
+    padding: 0 10px;
+     font-size: 20px;
+     padding-bottom: 5px;
+}
+
+#section-main-body{
+    width: 70%; 
+    margin-left: 80px;
+}
+
+#section-main-body h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#section-icons{
+    height: 50%;
+    margin-left: 50px;
+}
+
+#section-icons li{
+    margin-top: 3px;
+}
+
+.dots-2{
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 100%;
+    padding: 0 8px;
+     padding-bottom: 3px;
+    border: 1px solid gray;
+    margin-bottom: 25px;
+}
+
+.plus-style, .minus-style{
+    font-weight: bolder;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section-nav{
+    background-color: rgb(241, 227, 227);
+}
+
+.fourth-section-nav{
+    background-color: rgb(243, 178, 178);
+}
+
+
+
+/************************************/
+
+/* #modal-container{
+   border: 1px solid #ccc;
+    margin-left: 160px;
+   margin-top: -20px;
+   position: fixed;
+   width: 90px;
+   background-color: #fff;
+ 
+} 
+
+
+} */
+
+
+#modal-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid gray;
+ width: 90px;
+ margin-left: 100px;
+ 
+}
+
+#modal-container a li{
+ color: #000;
+ font-size: 14px;
+
+}
+
+#modal-container a li:hover{
+ color: blue;
+}
+
+#modal-container li img{
+  padding-right: 10px;
+}
