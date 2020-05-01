@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import '../second/second.css'
 import ModalContainer from '../ModalContainer'
 import SecondSectionLinks from '../SecondSectionLinks'
+import SectionIcons from '../components/SectionIcons'
 
 import Search from '../images/search.png';
 import NoteIcon from '../images/note icon2.png'
@@ -93,23 +94,20 @@ class SecondPage extends Component {
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum necessitatibus possimus tenetur deserunt recusandae quos laudantium eaque similique! Ipsa voluptatem est quasi similique debitis dolores.
                   </p>
                  <SecondSectionLinks />
-                  <ModalContainer/>
                 </div>
                 <div className='second-section-nav'>
                   <h4>10 Hours Fasting Every Week</h4>
                   <p className='p-tag'>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum necessitatibus possimus tenetur deserunt recusandae quos laudantium eaque similique! Ipsa voluptatem est quasi similique debitis dolores.
                   </p>
-                 <SecondSectionLinks />
-                 <ModalContainer/>
+                 <SecondSectionLinks />            
                 </div>
                 <div className='third-section-nav'>
                   <h4>10 Hours Fasting Every Week</h4>
                   <p className='p-tag'>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum necessitatibus possimus tenetur deserunt recusandae quos laudantium eaque similique! Ipsa voluptatem est quasi similique debitis dolores.
                   </p>
-                  <SecondSectionLinks />
-                <ModalContainer/>
+                  <SecondSectionLinks />            
                 </div>
                 <div className='fourth-section-nav'>
                   <h4>10 Hours Fasting Every Week</h4>
@@ -117,7 +115,6 @@ class SecondPage extends Component {
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum necessitatibus possimus tenetur deserunt recusandae quos laudantium eaque similique! Ipsa voluptatem est quasi similique debitis dolores.
                   </p>
                  <SecondSectionLinks/>
-                  <ModalContainer/>
                 </div>
               </div>
               <div id="section-main-body">
@@ -129,15 +126,8 @@ class SecondPage extends Component {
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error eaque dolorum eius! Sunt voluptate quisquam nostrum explicabo sapiente iusto illo quod incidunt labore, dignissimos ea minima ratione, voluptatum earum consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, aliquid quisquam! Perspiciatis, natus architecto inventore, ducimus voluptate atque dolorum cumque tenetur nemo unde quis veniam modi officia error iusto incidunt reprehenderit labore corrupti blanditiis a tempora repellendus! Natus consequuntur possimus, fugiat deleniti fuga ipsam doloremque voluptate dolorum, illo commodi cupiditate.
                    </p>
                 </div>
-              </div>
-               <ModalContainer/> 
-              <div id="section-icons">
-                <ul>
-                  <li className="dots-2" onClick="toggleMenu5()">...</li>
-                  <li className="plus-style">+</li>
-                  <li className="minus-style">-</li>
-                </ul>
-               </div>
+              </div>           
+              <SectionIcons />
             </div>
           </section>
         </div>

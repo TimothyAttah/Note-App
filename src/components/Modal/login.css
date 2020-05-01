@@ -1,0 +1,145 @@
+#modal{
+    /* display: none; */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0 auto;
+    
+    /* opacity: 0.7; */
+    
+    /* margin: 50px auto;
+     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2),  0 7px 20px 0 rgba(0, 0, 0, 0.17);
+     margin-left: 80%; */
+}
+
+
+#login-container5{
+    display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  /* background-color: #fff; */
+  /* border: 1px solid gray; */
+ width: 90px;
+ /* margin-left: 100px; */
+
+}
+
+.modal-box{
+    margin: 0 20px;
+    /* margin-left: 100%; */
+   
+}
+
+#modal-content{
+    height: 50%;
+    margin: 0 20px;
+     margin-left: 1000px;
+    /* background-color: #fff; */
+    animation-name: modalOpen;
+    animation-duration: 3s;
+    border: none;
+}
+#modal-content:hover{
+    cursor: pointer;
+}
+
+.close-btn{
+    font-size: 30px;
+    width: 20px;
+    margin-left: 280px;
+    font-weight: bold;
+}
+
+.close-btn:hover{
+    background-color: #ccc;
+    border-radius: 20px;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.ptag-welcome{
+    color: #2762F7;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.ptag-details p{
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.google-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #2762F7;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+ a .google-box{
+    text-decoration: none;
+    color: #000;
+}
+
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 20px;
+}
+
+input{
+    width: 280px; 
+     padding: 15px;
+    margin-top: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+    border: 1px solid lightslategray; 
+   
+}
+
+.login-modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2762F7;
+    margin-top: 15px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.login-modal a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.login-modal:hover{
+    background-color: rgba(0, 0, 173, 0.753);
+}
+
+.sign-up-modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    
+}
+
+.sign-up-modal a{
+    text-decoration: none;
+    color: #2762F7;
+}

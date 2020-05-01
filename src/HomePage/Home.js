@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
+import Modal from 'react-modal'
 import '../App.css'
 import { Link } from 'react-router-dom'
 
@@ -8,7 +9,8 @@ import Gym from '../images/gym.jpeg';
 
 
 
-class Home  extends Component {
+class Home extends Component {
+  
  
   render() { 
     return ( 
@@ -23,7 +25,7 @@ class Home  extends Component {
             <div class="login-signUp">
               <ul class="links-tag">
                 <li id="login" class="login">
-                  <a href="#">Login</a>
+                  <Link to='#'>Login</Link>
                 </li>
                 <li id="signUp" class="sign-up">
                   <a href="#">Sign Up</a>
